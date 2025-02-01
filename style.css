@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@1,14..32,300&display=swap');
+
+*{margin: 0;
+    padding: 0;
+}
+
+#bg{
+    background-image: url("./imagenes/fondo05.png");
+    background-size:cover;
+   
+    background-repeat: no-repeat;
+   }
+.flor2 img{
+    width: 100%;
+    height: auto;
+}
+.flor3 img{
+    width: 100%;
+    height: auto;
+    margin-top: -120px;
+    
+}
+
+h1 {text-align: center;}
+.nombres {
+    width: 70%;
+    height: auto;
+}
+h2{ text-align: center;
+    font-family: "Poiret One", serif;
+    color: goldenrod;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgb(255, 217, 0), 
+                   0 0 4px rgb(255, 217, 0); /* Sombra dorada */
+                   font-size: 2rem;
+}
+
+header p {
+    font-family: "Poiret One", serif;
+    color: rgb(0, 0, 0);
+    max-width: 98%;
+        text-shadow: 1px 1px 2px rgb(255, 217, 0), 
+        0 0 4px rgb(255, 217, 0); /* Sombra dorada */
+        font-size: 1.6rem;
+}
+.frase{display: flex;
+justify-content: center;
+text-align: center;
+font-size: 1.4rem;}
+
+/* Efecto para fotos */
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.torn-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    -webkit-mask-image: url('./imagenes/borde-rasgado.svg');
+    mask-image: url('./imagenes/borde-rasgado.svg');
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+
+.torn-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pareja{
+    width: 6rem;
+    height: auto;
+    margin: 15px;
+    text-align: center;
+}
+
+.bendicion{
+    font-family: "Playwrite IN", serif;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 2px rgb(255, 217, 0), 
+    0 0 4px rgb(255, 217, 0); /* Sombra dorada */
+    max-width: 98%;
+}
+
+main section {
+    text-align: center;
+
+}
+main ,section p {
+    text-align: center;
+    font-family: "Inter", serif;
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+
+}
+main section p, h3 {
+    text-align: center;
+
+}
+
+
+.padrinos{
+    margin: 20px;
+    font-family: "Inter", serif;
+    color: rgb(0, 0, 0);
+
+}
+.calendario{
+    width: 20rem;
+    height: auto;
+    margin-top: 20px;
+}
+.pin{
+    width: 6rem;
+    height: auto;
+}
+.salon{
+    text-align: center;
+    font-family: "Inter", serif;
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+
+}
+.donde{
+    font-family: "Playwrite IN", serif;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 2px rgb(255, 217, 0), 
+    0 0 4px rgb(255, 217, 0); /* Sombra dorada */
+    max-width: 98%;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.carousel .torn-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -webkit-mask-image: url('./imagenes/borde-rasgado.svg'); /* Ruta al SVG */
+    mask-image: url('./imagenes/borde-rasgado.svg'); /* Aplica la máscara */
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+}
+
+.carousel .torn-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* La imagen visible será la única con opacity: 1 */
+.carousel .torn-image.active {
+    opacity: 1;
+}
+.dress{
+    font-family: "Inter", serif;
+    color: rgb(0, 0, 0);
+    font-size: 1.6rem;
+}
+.frases{
+    font-family: "Inter", serif;
+    color: rgb(0, 0, 0);
+    font-size: 1.6rem;
+}
+.cbu{font-family: "Inter", serif;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+margin: 5px;}
+
+.botonW img{
+    width: 5rem;
+}
+.botonW{
+    display: flex;
+    justify-content: center;
+}
