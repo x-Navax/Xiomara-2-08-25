@@ -32,9 +32,6 @@ h2{ text-align: center;
     font-family: "Poiret One", serif;
     color: goldenrod;
     margin-bottom: 20px;
-    text-shadow: 1px 1px 2px rgb(255, 217, 0), 
-                   0 0 4px rgb(255, 217, 0); /* Sombra dorada */
-                   font-size: 2rem;
 }
 
 header p {
@@ -103,7 +100,7 @@ main ,section p {
     text-align: center;
     font-family: "Inter", serif;
     color: rgb(0, 0, 0);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 
 }
 main section p, h3 {
@@ -139,7 +136,7 @@ main section p, h3 {
     font-family: "Playwrite IN", serif;
     text-align: center;
     justify-content: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-shadow: 1px 1px 2px rgb(255, 217, 0), 
     0 0 4px rgb(255, 217, 0); /* Sombra dorada */
     max-width: 98%;
@@ -190,16 +187,16 @@ main section p, h3 {
 .dress{
     font-family: "Inter", serif;
     color: rgb(0, 0, 0);
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 .frases{
     font-family: "Inter", serif;
     color: rgb(0, 0, 0);
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 .cbu{font-family: "Inter", serif;
     color: rgb(0, 0, 0);
-    font-size: 3rem;
+    font-size: 2.4rem;
 margin: 5px;}
 
 .botonW img{
