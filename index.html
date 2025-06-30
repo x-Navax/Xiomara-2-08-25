@@ -3,158 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuestra Boda F&A</title>
+    <title>Invitacion a Mis XV Xiomara</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./imagenes/ico.ico" type="image/x-icon">
 </head>
 <body id="bg">
     <!-- Audio -->
-    <audio id="background-audio" src="./imagenes/Al Bano & Romina Power - Felicità.mp3" autoplay loop></audio>
+    <audio id="background-audio" src="./imagenes/ZAYN - Stardust.mp3" autoplay loop></audio>
 
     <!-- Botón flotante para pausar/reproducir -->
     <div id="audio-control" class="audio-button">
         <span id="audio-icon">⏸</span>
     </div>
 
-    <header>
-        <div class="flor2">
-            <img src="./imagenes/flores2.png" alt="">
-        </div>
-        <h2>¡Nos casamos!</h2>
-        <h1><img class="nombres" src="./imagenes/Nombres2.png" alt=""></h1>
-        <section class="image-section">
-            <div class="torn-image">
-                <img src="./imagenes/01.JPG" alt="Imagen cortada a mano">
+      <header>
+          <div class="centrado" ><img class="nombre" src="./imagenes/Xiomara.png" alt=""></div>
+          
+        <div class="torn-image">
+                <img src="./imagenes/00.JPG" alt="Imagen cortada a mano">
             </div>
-        </section>
-        <div class="frase">
-            <P>El amor nunca se da por vencido, jamás pierde la fe, siempre tiene esperanzas y se mantiene firme en toda circunstancia. <br>
-                
-                <br>1 Corintios 13:7</P>
+        <h2>¿Cuánto falta?</h2>
+      
+        <!-- CONTADOR -->
+           <div class="centrado">
+          <span class="mensaje" id="mensaje"></span>
         </div>
+        <div class="time_circles">
+          <div>
+            <span class="number" id="dias"></span>
+            <span class="text">Días</span>
+          </div>
+          <div>
+            <span class="number" id="horas"></span>
+            <span class="text">Horas</span>
+          </div>
+          <div>
+            <span class="number" id="minutos"></span>
+            <span class="text">Minutos</span>
+          </div>
+          <div>
+            <span class="number" id="segundos"></span>
+            <span class="text">Segundos</span>
+          </div>
+        </div>
+      </section>
     </header>
 
     <main>
-        <section>
-            <img class="pareja" src="./imagenes/pareja-de-boda.png " alt=""> <br>
-        </section>
-        <br>
-            <p class="bendicion">Con la bendicion de Dios y nuestros queridos padres
-                <br>
 
-                <p class="padrinos">
-                    <h3> Padres del novio</h3>
-                    Pedro Esteban Gajo <br>
-                    Erica Lorena Pastorini
-                    <br>
-                    <br>
-                    <h3>Padres de la novia</h3>
-                    Ángel Daniel Spinache <br>
-                    Silvana Beatriz Gutierrez 
-                    <br>
-                    <br>
-                    <p class="bendicion">  y con compañía de nuestros:</p>
-                    <h3>Caballeros de honor</h3>    
-                    Gabriel Gajo <br>
-                    Alberto Manuel Pastorini
-                    <br>
-                    <br>
-                    <h3>Damas de honor</h3>
-                    Lidia Noemi Spinache <br>
-                    Mariana Paola Spinache <br>
-                    Agustina Daniela Spinache <br>  
-                    Sofia Nahiara Gajo
-                    <br>
-                    <br>
-                    <h3>Nuestros pajecitos</h3>
-                    Cosntantino Spinache Escudero <br>
-                    Catalina Franchezca Cristaldo
-                </p>
-            </p>
         </section>
-        <section class="image-section">
-            <div class="torn-image">
-                <img src="./imagenes/03.JPG" alt="Imagen cortada a mano">
-            </div>
-        </section>
-        <img class="pareja" src="./imagenes/anillo-de-bodas.png" alt="">
-
-        <p class="bendicion">Tenemos el agrado de invitarlos a nuestra boda</p>
-        <section>
-            <h3 class="donde">Cuándo?</h3>
-            
-        </section>
-        <img class="calendario" src="./imagenes/calendario.png" alt="">
-        <p class="salon">A las 20hs. Ser puntuales! </p>
-       
-
-        <section>
-            <h3 class="donde">Dónde?</h3>
-            <p class="salon">Las Moras eventos, Campana</p>
-            <a target="_blank" href="https://www.google.com/maps/place/Las+Moras+Eventos+Campana/@-34.2142904,-58.9155201,17z/data=!3m1!4b1!4m6!3m5!1s0x95bb6fd4197ef461:0xc420889d299e2d7!8m2!3d-34.2142904!4d-58.9155201!16s%2Fg%2F11bwl33ftl?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D"><img class="pin" src="./imagenes/ubicacion.png" alt=""></a>
-            
-        </section>
-        <section class="image-section">
+           <section class="image-section">
             <div class="carousel">
                 <div class="torn-image">
-                    <img src="./imagenes/04.JPG" alt="Imagen 1">
+                    <img src="./imagenes/03.JPG" alt="Imagen 1">
                 </div>
                 <div class="torn-image">
-                    <img src="./imagenes/05.JPG" alt="Imagen 2">
+                    <img src="./imagenes/04.JPG" alt="Imagen 2">
                 </div>
                 <div class="torn-image">
-                    <img src="./imagenes/06.JPG" alt="Imagen 3">
+                    <img src="./imagenes/082.JPG" alt="Imagen 3">
                 </div>
             </div>
         </section>
+       
+
+        <section class="reloj" > <!-- CUANDO Y UBICACION -->
+        <h1 class="cuando--donde">¿Cuándo?</h1>
+        <img class="calendario" src="./imagenes/programar.png" alt="">
+        <div class="reloj">
+          <p class="dia">Sábado "2" de Agosto</p>
+          <p class="hora">A las 21:30 hs</p>
+          <h1 class="cuando--donde">¿Dónde?</h1>
+          <p class="lugar">Río Eventos Ideales <img class="riopng" src="./imagenes/rio.png" alt=""></p>
+          <p class="dire">Larrea 928 Zarate</p>
+          <a class="llegar" href="https://www.google.com/maps/place/%22R%C3%ADo+Eventos+Ideales%22/@-34.108395,-59.0167952,17z/data=!3m1!4b1!4m6!3m5!1s0x95bb0b5722cfa2f5:0x251949a5fea45546!8m2!3d-34.108395!4d-59.0167952!16s%2Fg%2F11byp83r20?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">¿Cómo llegar?</a>
+   
+        </div>
+      </section>
+
+    <section>
+      <!-- VESTIMENTA -->
+      <br>
+      <p class="borde2"></p>
+    <div class="dress">
+        <h1 class="code">Dress Code</h1>
+        <span><p class="sport">"Elegante Sport" <br>
+        (No usar gris ni blanco)
+        </p></span>
+        <img class="perso" src="./imagenes/ropa.png" alt="">
+        <p class="borde2"></p>
+      </div>
+     <section class="image-section" style="z-index: -1;"> 
+                <div class="torn-image">
+                    <img src="./imagenes/06.JPG" alt="Imagen cortada a mano">
+                </div>
+            </section>
+      <div id="MesadeRegalos" class="mesadeRegalos">
+        <h3 class="TituloRegalos">
+            Mesa de regalos
+        </h3>
+        <div>
+           
+            <div class="regaloubi"><p class="regalo">No hay mejor regalo para mi que puedan estar presentes y acompañarme en mi noche única e inolvidable.
+              Pero si de todas formas deseas darme algún presente, en el salón habrá una mesa con un cofre para dejarlos allí.</p></div>
+            </div>
+            <div class="regaloubi">
+           
+            <!-- <p class="regalo">Y voy a dejar esto por aquí</p> -->
+            <p class="cbu">ALIAS:xiomartt</p>
+           
+            
+        </div>
+      </div>
+
+       <section>
+      <h2 class="asistencia">Confirmar asistencia</h2>
+      <!-- FORMULARIO ASISTENCIA -->
+      <div class="botonW">
+        <a href="https://api.whatsapp.com/send?phone=3487729141" target="_blank">
+        <img src="./imagenes/whatsapp.png" alt="">
+    </a>
+      </div>
+    
+    </section>
 
         <section>
-            <h3 class="donde">Dress Code</h3>
-            <p class="dress" >Elegante</p>
-            <img class="pareja" src="./imagenes/vestido-de-novia.png" alt="">
-            <p class="frases">Prepárense para una boda llena de colores, evitando el blanco y rosa </p>
-        </section>
-
-        <section>
-            <h3 class="donde">Regalos</h3>
-            <img class="pareja" src="./imagenes/abrir-caja.png" alt="">
-            <p class="frases">El mejor regalo es que estés presente en este día tan esperado, pero si deseas hacernos un obsequio tenemos esta opcion:  </p>
-
-            <p class="cbu">Alias:spinache.fiore</p>
-        </section>
-
-        <section>
-            <h3 class="donde">Confirmacion de asistencia
-                novia
-            </h3>
-            <div class="botonW">
-                <a href="https://api.whatsapp.com/send?phone=+5491167381610" target="_blank">
-                <img src="./imagenes/whatsapp.png" alt="">
-            </a>
-              </div>
-        </section>
-        <section>
-            <h3 class="donde">Confirmacion de asistencia
-                novio
-            </h3>
-            <div class="botonW">
-                <a href="https://api.whatsapp.com/send?phone=+5493489530382" target="_blank">
-                <img src="./imagenes/whatsapp.png" alt="">
-            </a>
-              </div>
-        </section>
-
-        <section>
-            <h3 class="donde">Los Esperamos!</h3>
+            <h3 class="donde">Te Espero!</h3>
             <section class="image-section" style="z-index: -1;"> 
                 <div class="torn-image">
-                    <img src="./imagenes/10.JPG" alt="Imagen cortada a mano">
+                    <img src="./imagenes/08.JPG" alt="Imagen cortada a mano">
                 </div>
             </section>
         </section>
-        <div class="flor3">
-            <img src="./imagenes/flores22.png" alt="">
-        </div>
         
 
     </main>

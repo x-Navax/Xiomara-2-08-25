@@ -1,46 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@1,14..32,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meddon&display=swap');
 
 *{margin: 0;
     padding: 0;
 }
 
 #bg{
-    background-image: url("./imagenes/fondo05.png");
+    background-color: #000;
+    background-image: url("./imagenes/fondo09.png   ");
     background-size:cover;
-   
-    background-repeat: no-repeat;
-   }
-.flor2 img{
-    width: 100%;
-    height: auto;
-}
-.flor3 img{
-    width: 100%;
-    height: auto;
-    margin-top: -120px;
     
-}
+    background-repeat:repeat;
+   }
+
 
 h1 {text-align: center;}
-.nombres {
+.centrado {text-align: center;}
+.nombre {
+    margin-top: 20px;
     width: 70%;
     height: auto;
+    
 }
 h2{ text-align: center;
-    font-family: "Poiret One", serif;
-    color: goldenrod;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: #cecece;
     margin-bottom: 20px;
 }
 
 header p {
-    font-family: "Poiret One", serif;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
     color: rgb(0, 0, 0);
     max-width: 98%;
-        text-shadow: 1px 1px 2px rgb(255, 217, 0), 
-        0 0 4px rgb(255, 217, 0); /* Sombra dorada */
-        font-size: 1.6rem;
+    font-size: 1.6rem;
 }
 .frase{display: flex;
 justify-content: center;
@@ -82,15 +80,44 @@ font-size: 1.4rem;}
     text-align: center;
 }
 
-.bendicion{
-    font-family: "Playwrite IN", serif;
-    text-align: center;
-    justify-content: center;
-    font-size: 1.3rem;
-    text-shadow: 1px 1px 2px rgb(255, 217, 0), 
-    0 0 4px rgb(255, 217, 0); /* Sombra dorada */
-    max-width: 98%;
-}
+
+/* inicio contador */
+  
+.time_circles {
+  display: flex;
+  justify-content: center;
+  font-family: 'Bebas Neue', cursive;
+  color: #cecece;
+  margin-top: -30px;
+
+  }
+  
+.time_circles div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
+  height: 7rem;
+  margin: 0.8rem;
+  }
+  
+.time_circles span.number {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  margin-bottom: 0.5rem;
+  }
+  
+.time_circles span.text {
+  font-size: 1.1rem; 
+  text-transform: uppercase;
+  }
+.mensaje {text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    color: red;}
+
+/* fin contador */
 
 main section {
     text-align: center;
@@ -98,8 +125,8 @@ main section {
 }
 main ,section p {
     text-align: center;
-    font-family: "Inter", serif;
-    color: rgb(0, 0, 0);
+    
+    color: #cecece;
     font-size: 1.2rem;
 
 }
@@ -108,39 +135,16 @@ main section p, h3 {
 
 }
 
-
-.padrinos{
-    margin: 20px;
-    font-family: "Inter", serif;
-    color: rgb(0, 0, 0);
-
-}
 .calendario{
     width: 20rem;
     height: auto;
-    margin-top: 20px;
+    margin-bottom: 6px;
 }
 .pin{
     width: 6rem;
     height: auto;
 }
-.salon{
-    text-align: center;
-    font-family: "Inter", serif;
-    color: rgb(0, 0, 0);
-    font-size: 1.4rem;
-    margin-bottom: 20px;
 
-}
-.donde{
-    font-family: "Playwrite IN", serif;
-    text-align: center;
-    justify-content: center;
-    font-size: 1.4rem;
-    text-shadow: 1px 1px 2px rgb(255, 217, 0), 
-    0 0 4px rgb(255, 217, 0); /* Sombra dorada */
-    max-width: 98%;
-}
 
 .image-section {
     display: flex;
@@ -176,7 +180,7 @@ main section p, h3 {
 
 .carousel .torn-image img {
     width: 100%;
-    height: 100%;
+    height: 130%;
     object-fit: cover;
 }
 
@@ -185,17 +189,13 @@ main section p, h3 {
     opacity: 1;
 }
 .dress{
-    font-family: "Inter", serif;
-    color: rgb(0, 0, 0);
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: #cecece;
     font-size: 1.4rem;
 }
-.frases{
-    font-family: "Inter", serif;
-    color: rgb(0, 0, 0);
-    font-size: 1.4rem;
-}
-.cbu{font-family: "Inter", serif;
-    color: rgb(0, 0, 0);
+
+.cbu{font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: #cecece;
     font-size: 2.4rem;
 margin: 5px;}
 
@@ -232,4 +232,203 @@ margin: 5px;}
 
 .audio-button:hover {
     transform: scale(1.1);
+}
+
+/* CUANDO Y UBUCACION */
+.cuando--donde {text-align: center;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 3rem;
+    color: #ffffff;
+     }
+.reloj img {width: 10%;}
+.reloj {text-align: center;}
+.reloj p {font-family: 'Bebas Neue', cursive;
+    
+    
+}
+.dia {
+    font-size: 1.5rem;
+    color: #ffffff;
+     }
+.hora {
+    font-size: 1.5rem;
+    color: #ffffff;
+     }
+     .lugar {
+        font-size: 1.8rem;
+        color: #f5e37e;
+    }
+        .lugar img {width: 10%;
+        height: 10%;
+    text-align: center;}
+        .dire {font-size: 1.5rem;
+        color: gray;
+        margin-bottom: 10px;        }
+        @media only screen and (max-width: 480px) {
+         .reloj  .riopng {
+            width: 18%;
+            height: 18%;
+            text-align: center;
+            }
+            }
+        .llegar {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4caf50;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.2s ease-in-out;
+            text-decoration: none;
+            margin-top: 20px;
+            
+        }
+        .redes span a img {width: 5rem;
+            padding: 10px;
+            margin-top: 10px;    
+        }
+
+
+
+/* FIN CUANDO Y UBICACION  */
+
+/* INICIO VESTIMENTA */
+.borde1 {border-bottom: 2px solid black;}
+.code {font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: #ffffff;
+     
+    font-size: 5rem;
+}
+.perso {width: 16%;
+    height: 16%;
+    margin-bottom: 16px;
+}
+@media only screen and (max-width: 480px) {
+    .perso {
+    width: 28%;
+    height: 28%;
+    text-align: center;
+    }
+    .code {font-size: 3rem;}
+    .sport {font-size: 2rem;}
+    }
+.dress {text-align: center;}
+.sport {font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 2.5rem ;
+    padding-top: -25px;
+    color: #ffffff;
+     ;
+
+}   
+/* FIN VESTIMENTA */
+
+/* MESA DE REGALOS */
+.TituloRegalos {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 6px;
+    color: #ffffff;
+     
+}
+.regalo {
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 150%;
+    color: #ffffff;
+     
+}
+.cbu{
+    color: #ffffff;
+     
+    font-size: 2.5rem;
+   margin-top: 0px;
+}
+.monopoli{
+    width: 60%;
+    height: auto;
+}
+
+.borde2 {border-bottom: 2px solid rgb(255, 255, 255);
+    margin-left: 350px;
+    margin-right: 350px;
+}
+@media only screen and (max-width: 480px) {
+    .borde2 {
+    margin-left: 45px;
+    margin-right: 45px;
+    }
+    }
+/* .regalo {text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 210%;
+} */
+.regalopng {width: 10%;
+    height: 8%;
+    text-align: center;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 2px #eff613;}
+    .imgdona {width: 90%;
+    height: 90%;
+    text-align: center;}
+    @media only screen and (max-width: 480px) {
+        .regalopng {
+        width: 40%;
+        height: 18%;
+        text-align: center;
+        }
+        }
+.regaloubi {text-align: center;}
+.donacion {width: 8%;
+    height: 8%;
+    text-align: center;}
+
+.imgdona {width: 90%;
+    height: 90%;
+    text-align: center;}
+    @media only screen and (max-width: 480px) {
+        .donacion {
+        width: 18%;
+        height: 18%;
+        text-align: center;
+        }
+        }
+.imgdonaubi {text-align: center;
+    padding-bottom: 15px;}
+.asistencia {text-align: center;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 2rem;
+    color: #ffffff;
+     }
+
+
+/* INICIO FOOTER */
+footer h1 {text-align: center;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+     
+}
+@media only screen and (max-width: 480px) {
+    footer h1 {font-size: 3rem;} 
+    }
+    @media only screen and (max-width: 480px) {
+        .imgdona, .imgcarrusel {width: 95%;
+        height: 95%;}
+        }
+/* FIN FOOTER */
+/* Estilos para el botón de WhatsApp */
+.botonW img{
+    width: 5rem;
+}
+.botonW{
+    display: flex;
+    justify-content: center;
+}
+.AnombreDe {
+    color: #ffffff;
+    font-size: 1.6rem;
 }
