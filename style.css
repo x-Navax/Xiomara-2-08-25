@@ -306,8 +306,8 @@ margin: 5px;}
 }
 @media only screen and (max-width: 480px) {
     .perso {
-    width: 26%;
-    height: 26%;
+    width: 24%;
+    height: 24%;
     text-align: center;
     }
     .code {font-size: 2.2rem;}
