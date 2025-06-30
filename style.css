@@ -306,12 +306,12 @@ margin: 5px;}
 }
 @media only screen and (max-width: 480px) {
     .perso {
-    width: 28%;
-    height: 28%;
+    width: 26%;
+    height: 26%;
     text-align: center;
     }
-    .code {font-size: 2.4rem;}
-    .sport {font-size: 1.8rem;}
+    .code {font-size: 2.2rem;}
+    .sport {font-size: 1.6rem;}
     }
 .dress {text-align: center;}
 .sport {font-family: "Edu AU VIC WA NT Hand", cursive;
