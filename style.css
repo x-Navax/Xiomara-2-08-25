@@ -304,6 +304,15 @@ margin: 5px;}
     height: 14%;
     margin-bottom: 16px;
 }
+.dress {text-align: center;}
+.sport {font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 1.8rem ;
+    padding-top: -25px;
+    color: #ffffff;
+     ;
+
+}   
+/*
 @media only screen and (max-width: 480px) {
     .perso {
     width: 24%;
@@ -311,17 +320,9 @@ margin: 5px;}
     text-align: center;
     }
     .code {font-size: 2.2rem;}
-    .sport {font-size: 1.6rem;}
+    .sport {font-size: 1.4rem;}
     }
-.dress {text-align: center;}
-.sport {font-family: "Edu AU VIC WA NT Hand", cursive;
-    font-size: 2.5rem ;
-    padding-top: -25px;
-    color: #ffffff;
-     ;
-
-}   
-/* FIN VESTIMENTA */
+ FIN VESTIMENTA */
 
 /* MESA DE REGALOS */
 .TituloRegalos {
