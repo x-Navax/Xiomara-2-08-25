@@ -237,7 +237,7 @@ margin: 5px;}
 /* CUANDO Y UBUCACION */
 .cuando--donde {text-align: center;
     font-family: "Edu AU VIC WA NT Hand", cursive;
-    font-size: 3rem;
+    font-size: 2.4rem;
     color: #ffffff;
      }
 .reloj img {width: 10%;}
@@ -298,11 +298,10 @@ margin: 5px;}
 .borde1 {border-bottom: 2px solid black;}
 .code {font-family: "Edu AU VIC WA NT Hand", cursive;
     color: #ffffff;
-     
-    font-size: 5rem;
+    font-size: 2.2rem;
 }
-.perso {width: 16%;
-    height: 16%;
+.perso {width: 14%;
+    height: 14%;
     margin-bottom: 16px;
 }
 @media only screen and (max-width: 480px) {
@@ -311,8 +310,8 @@ margin: 5px;}
     height: 28%;
     text-align: center;
     }
-    .code {font-size: 3rem;}
-    .sport {font-size: 2rem;}
+    .code {font-size: 2.4rem;}
+    .sport {font-size: 1.8rem;}
     }
 .dress {text-align: center;}
 .sport {font-family: "Edu AU VIC WA NT Hand", cursive;
@@ -327,7 +326,7 @@ margin: 5px;}
 /* MESA DE REGALOS */
 .TituloRegalos {
     font-family: "Edu AU VIC WA NT Hand", cursive;
-    font-size: 3rem;
+    font-size: 2.4rem;
     text-align: center;
     padding-top: 6px;
     color: #ffffff;
@@ -336,7 +335,7 @@ margin: 5px;}
 .regalo {
     text-align: center;
     font-family: "Edu AU VIC WA NT Hand", cursive;
-    font-size: 150%;
+    font-size: 130%;
     color: #ffffff;
      
 }
